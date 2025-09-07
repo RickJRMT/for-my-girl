@@ -25,7 +25,7 @@ Sitio web romántico y responsivo con 8 sobres animados, mensajes lindos y un bo
 Este sitio está listo para GitHub Pages.
 1. Repo: público en GitHub.
 2. Settings → Pages → Source: Branch `main`, carpeta `/`.
-3. Acceso: `https://TU_USUARIO.github.io/for-my-girl/`
+3. Acceso: `https://rickjrmt.github.io/for-my-girl/`
 
 ## Personalización rápida
 - Edita los textos de cada carta en `index.html`.
