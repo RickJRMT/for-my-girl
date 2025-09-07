@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Para Mi Amor</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+	<header class="hero">
+		<h1>Para Ti, Mi Amor</h1>
+		<p>Seis sobres, seis razones para sonreír.</p>
+	</header>
+
+	<main class="grid">
+		<!-- Sobre 1 -->
+		<div class="grid-item">
+			<div class="envelope" data-envelope="1" aria-expanded="false">
+				<div class="flap"></div>
+				<button class="heart-button" aria-label="Abrir sobre 1">❤</button>
+				<div class="letter purple">
+					<button class="close-letter" aria-label="Cerrar carta">×</button>
+					<p>Desde aquel día en Roblox, todo tomó color. Tu voz cae sobre mí como lluvia suave, y cada palabra tuya abraza mi alma con una paz que jamás había conocido.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Sobre 2 -->
+		<div class="grid-item">
+			<div class="envelope" data-envelope="2" aria-expanded="false">
+				<div class="flap"></div>
+				<button class="heart-button" aria-label="Abrir sobre 2">❤</button>
+				<div class="letter yellow">
+					<button class="close-letter" aria-label="Cerrar carta">×</button>
+					<p>No imaginé que el amor corriera tan deprisa; contigo todo es distinto. Eres mi cielo despejado, mis nubes de algodón y la melodía que armoniza mis días.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Sobre 3 -->
+		<div class="grid-item">
+			<div class="envelope" data-envelope="3" aria-expanded="false">
+				<div class="flap"></div>
+				<button class="heart-button" aria-label="Abrir sobre 3">❤</button>
+				<div class="letter purple">
+					<button class="close-letter" aria-label="Cerrar carta">×</button>
+					<p>Aceptas cada parte de mí, incluso lo imperfecto, y ese es mi tesoro. Tu amor sincero me inspira a ser mejor, siempre contigo, siempre de tu mano.</p>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- Sobre 4 -->
+		<div class="grid-item">
+			<div class="envelope" data-envelope="4" aria-expanded="false">
+				<div class="flap"></div>
+				<button class="heart-button" aria-label="Abrir sobre 4">❤</button>
+				<div class="letter yellow">
+					<button class="close-letter" aria-label="Cerrar carta">×</button>
+					<p>Cuando pienso en ti, imagino nuestro futuro: tus ojitos brillando frente a los míos, tus labios robándome sonrisas. Quiero convertir ese sueño en nuestra vida.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Sobre 5 -->
+		<div class="grid-item">
+			<div class="envelope" data-envelope="5" aria-expanded="false">
+				<div class="flap"></div>
+				<button class="heart-button" aria-label="Abrir sobre 5">❤</button>
+				<div class="letter purple">
+					<button class="close-letter" aria-label="Cerrar carta">×</button>
+					<p>Aunque la distancia se interponga, mi corazón late contigo. Sueño con abrazarte fuerte, construir una vida a tu lado y no soltarte jamás.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Sobre 6 -->
+		<div class="grid-item">
+			<div class="envelope" data-envelope="6" aria-expanded="false">
+				<div class="flap"></div>
+				<button class="heart-button" aria-label="Abrir sobre 6">❤</button>
+				<div class="letter yellow">
+					<button class="close-letter" aria-label="Cerrar carta">×</button>
+					<p>Contigo aprendí que el amor también es quietud: la calma de una tarde, el abrazo que no juzga y la risa que cura. Eres mi refugio, mi canción favorita y mi destino.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Sobre 7 -->
+		<div class="grid-item">
+			<div class="envelope" data-envelope="7" aria-expanded="false">
+				<div class="flap"></div>
+				<button class="heart-button" aria-label="Abrir sobre 7">❤</button>
+				<div class="letter purple">
+					<button class="close-letter" aria-label="Cerrar carta">×</button>
+					<p>Si cierro los ojos, te veo sonreír. Tus manos entrelazadas con las mías vuelven todo sencillo, como un cielo limpio después de la lluvia; eres mi milagro cotidiano.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Sobre 8 (personalizable en HTML, con scroll si es largo) -->
+		<div class="grid-item">
+			<div class="envelope" data-envelope="8" aria-expanded="false">
+				<div class="flap"></div>
+				<button class="heart-button" aria-label="Abrir sobre 8">❤</button>
+				<div class="letter yellow">
+					<button class="close-letter" aria-label="Cerrar carta">×</button>
+					<p><!-- Escribe aquí tu mensaje personalizado, puedes reemplazar este párrafo. --></p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Botón central (se coloca al final para móviles/tablets) -->
+		<div class="grid-item center-cell">
+			<button id="acceptBtn" class="cta">¡¡Si, Acepto!!</button>
+		</div>
+	</main>
+
+	<!-- Contenedor de globos -->
+	<div id="balloonsContainer" aria-hidden="true"></div>
+
+	<footer class="footer">
+		<p>Hecho con ❤ en morado, amarillo y negro.</p>
+	</footer>
+
+	<script src="script.js" defer></script>
+</body>
+</html>
